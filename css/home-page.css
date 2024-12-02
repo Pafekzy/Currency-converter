@@ -1,0 +1,181 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #1e90ff, #87ceeb);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Header Section */
+  header {
+    background: #1e90ff;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;  /* Makes the header sticky */
+    top: 0;  /* Ensures the header sticks to the top */
+    z-index: 100;  /* Ensures header stays above other content */
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 0 0 10px #c0c0c0, 0 0 20px #ffffff, 0 0 30px #d3d3d3;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 20px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #87ceeb;
+  }
+  
+  section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  /* Form Styling */
+  form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  form label {
+    display: block;
+    text-align: left;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea,
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #87ceeb;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #ffffff;
+    color: #1e90ff;
+  }
+  
+  /* Placeholder Styling */
+  form input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Button Styling */
+  form button {
+    background: linear-gradient(to right, #1e90ff, #87ceeb);
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  form button:hover {
+    background: linear-gradient(to right, #87ceeb, #1e90ff);
+    transform: scale(1.05);
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: #1e90ff;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 1em;
+  }
+  
+  /* Convert Currency Section */
+  #convert {
+    background: linear-gradient(to bottom, #87ceeb, #1e90ff);
+    padding: 60px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #convert form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+  }
+  
+  #convert h2 {
+    text-shadow: 0 0 15px #fff, 0 0 30px #87ceeb;
+  }
+  
+  /* Sticky Navbar Effects */
+  header nav ul li a {
+    padding: 8px 15px;
+    transition: background 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+  
+  /* Form Styling for Select Fields */
+  form select {
+    background: #fff;
+    color: #1e90ff;
+    border: 2px solid #87ceeb;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  /* Ensuring Accessibility and Readability */
+  input, select, textarea {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  
