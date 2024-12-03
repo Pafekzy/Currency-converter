@@ -26,82 +26,90 @@
       </nav>
     </header>
 
-    <!-- Main Section -->
-    <main>
-      <!-- Home Section -->
-      <section id="home">
-        <h2>Welcome to the Currency Converter</h2>
-        <p>Easily convert currencies with real-time exchange rates.</p>
-      </section>
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to the Currency Converter</h2>
+      <!-- Video Container with Gradient Border -->
+      <div class="video-container">
+        <video autoplay loop muted>
+          <source src="assets/media/Animation On Three Phones.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
-      <!-- Features Section -->
-      <section id="features">
-        <h2>Features</h2>
-        <ul>
-          <li>Real-time exchange rates</li>
-          <li>Multiple currencies supported</li>
-          <li>User-friendly interface</li>
-        </ul>
-      </section>
+      <!-- Ribbon Container -->
+      <div class="ribbon">
+        <p>Easily convert currencies with real-time exchange rates</p>
+      </div>
+    </section>
 
-      <!-- Convert Currency Section -->
-      <section id="convert">
-        <h2>Convert Currency</h2>
-        <form id="convertForm">
-          <label for="fromCurrency">Currency to Convert From:</label>
-          <select id="fromCurrency" name="fromCurrency" required>
-            <option value="USD">USD - US Dollar</option>
-            <option value="EUR">EUR - Euro</option>
-            <option value="NGN">NGN - Nigerian Naira</option>
-          </select>
+    <!-- Features Section -->
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Real-time exchange rates</li>
+        <li>Multiple currencies supported</li>
+        <li>User-friendly interface</li>
+      </ul>
+    </section>
 
-          <label for="amount">Amount:</label>
-          <input
-            type="number"
-            id="amount"
-            name="amount"
-            placeholder="Enter amount"
-            required
-          />
+    <!-- Convert Currency Section -->
+    <section id="convert">
+      <h2>Convert Currency</h2>
+      <form id="convertForm">
+        <label for="fromCurrency">Currency to Convert From:</label>
+        <select id="fromCurrency" name="fromCurrency" required>
+          <option value="USD">USD - US Dollar</option>
+          <option value="EUR">EUR - Euro</option>
+          <option value="NGN">NGN - Nigerian Naira</option>
+        </select>
 
-          <label for="toCurrency">Currency to Convert To:</label>
-          <select id="toCurrency" name="toCurrency" required>
-            <option value="EUR">EUR - Euro</option>
-            <option value="USD">USD - US Dollar</option>
-            <option value="NGN">NGN - Nigerian Naira</option>
-          </select>
+        <label for="amount">Amount:</label>
+        <input
+          type="number"
+          id="amount"
+          name="amount"
+          placeholder="Enter amount"
+          required
+        />
 
-          <label for="convertedAmount">Amount of Conversion:</label>
-          <input
-            type="text"
-            id="convertedAmount"
-            name="convertedAmount"
-            placeholder="Converted amount will appear here"
-            readonly
-          />
+        <label for="toCurrency">Currency to Convert To:</label>
+        <select id="toCurrency" name="toCurrency" required>
+          <option value="EUR">EUR - Euro</option>
+          <option value="USD">USD - US Dollar</option>
+          <option value="NGN">NGN - Nigerian Naira</option>
+        </select>
 
-          <button type="submit">Convert</button>
-        </form>
-      </section>
+        <label for="convertedAmount">Amount of Conversion:</label>
+        <input
+          type="text"
+          id="convertedAmount"
+          name="convertedAmount"
+          placeholder="Converted amount will appear here"
+          readonly
+        />
 
-      <!-- Contact Section -->
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us!</p>
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
+        <button type="submit">Convert</button>
+      </form>
+    </section>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? Reach out to us!</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
 
     <!-- Footer Section -->
     <footer>

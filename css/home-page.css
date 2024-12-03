@@ -125,6 +125,23 @@ body {
     transform: scale(1.05);
   }
   
+ 
+/* Styling for the ribbon */
+.ribbon {
+  text-align: center; /* Center the text inside the ribbon */
+  background: linear-gradient(45deg, royalblue, green); /* Gradient background */
+  color: white; /* White text color */
+  font-style: italic; /* Italicized text */
+  padding: 3px 0; /* Reduced space above and below the text */
+  font-size: 16px; /* Reduced font size of the ribbon text */
+  width: 400px; /* Set width same as the video container */
+  margin: 10px auto 0; /* Center the ribbon and space it from the video */
+  border-radius: 10px; /* Rounded corners for the ribbon */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around the ribbon */
+}
+
+
+
   /* Footer Styling */
   footer {
     background: #1e90ff;
